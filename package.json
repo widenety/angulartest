@@ -8,7 +8,7 @@
 		"watch": "ng build --watch --configuration development",
 		"test": "ng test",
 		"serve:ssr:AngularTest": "node dist/angular-test/server/server.mjs",
-		"deploy": "ng build --configuration production && copy dist\\angulartest\\index.html dist\\angulartest\\404.html && npx angular-cli-ghpages --dir=dist/angulartest"
+		"deploy": "ng build --configuration production && copy dist\\angulartest\\browser\\index.html dist\\angulartest\\browser\\404.html && npx angular-cli-ghpages --dir=dist/angulartest/browser"
 	},
 	"private": true,
 	"dependencies": {
